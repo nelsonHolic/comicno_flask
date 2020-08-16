@@ -1,0 +1,10 @@
+
+flask
+jsonref
+passlib[bcrypt]
+flask-wtf
+flask-restx
+python-jose
+pydantic >= "1.6"
+mypy
+pytest >= "3.4"

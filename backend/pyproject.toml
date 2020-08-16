@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "comicno-api"
+version = "0.1.0"
+description = "This is projetc for testing a comic aplicaction"
+authors = ["Nelson Escobar <nelson.holic@gmail.com>"]
+
+[tool.poetry.dependencies]
+flask = "*"
+bcrypt = "*"
+passlib = "*"
+jsonref = "*"
+flask-wtf = "*"
+flask-restx = "*"
+python-jose = "*"
+pydantic = "^1.6"
+python = "^3.8"
+
+[tool.poetry.scripts]
+server = "app"
+
+[tool.poetry.dev-dependencies]
+mypy = "*"
+pytest = "^3.4"
